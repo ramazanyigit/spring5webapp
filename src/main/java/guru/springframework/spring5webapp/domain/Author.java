@@ -24,6 +24,12 @@ public class Author {
         this.lastName = lastName;
     }
 
+    public Author(String firstName, String lastName, Set<Book> books) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.books = books;
+    }
+
     public Long getId() {
         return id;
     }
